@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Value Sans Pro';
+    src: url('../assets/fonts/ValueSansPro-Regular.eot');
+    src: local('../assets/fonts/Value Sans Pro Regular'), local('ValueSansPro-Regular'),
+        url('../assets/fonts/ValueSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ValueSansPro-Regular.woff2') format('woff2'),
+        url('../assets/fonts/ValueSansPro-Regular.woff') format('woff'),
+        url('../assets/fonts/ValueSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'V../assets/fonts/value Sans Pro';
+    src: url('../assets/fonts/ValueSansPro-Bold.eot');
+    src: local('../assets/fonts/Value Sans Pro Bold'), local('ValueSansPro-Bold'),
+        url('../assets/fonts/ValueSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ValueSansPro-Bold.woff2') format('woff2'),
+        url('../assets/fonts/ValueSansPro-Bold.woff') format('woff'),
+        url('../assets/fonts/ValueSansPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '../assets/fonts/Value Sans Pro';
+    src: url('../assets/fonts/ValueSansPro-Black.eot');
+    src: local('../assets/fonts/Value Sans Pro Black'), local('ValueSansPro-Black'),
+        url('../assets/fonts/ValueSansPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ValueSansPro-Black.woff2') format('woff2'),
+        url('../assets/fonts/ValueSansPro-Black.woff') format('woff'),
+        url('../assets/fonts/ValueSansPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '../assets/fonts/Value Sans Pro';
+    src: url('../assets/fonts/ValueSansPro-Medium.eot');
+    src: local('../assets/fonts/Value Sans Pro Medium'), local('ValueSansPro-Medium'),
+        url('../assets/fonts/ValueSansPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ValueSansPro-Medium.woff2') format('woff2'),
+        url('../assets/fonts/ValueSansPro-Medium.woff') format('woff'),
+        url('../assets/fonts/ValueSansPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
