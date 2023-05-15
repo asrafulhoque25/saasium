@@ -17,7 +17,7 @@ const BannerSlider = () => {
           speed: 500,
           slidesToShow: 5,
           slidesToScroll: 3,
-          autoplay: true,
+          autoplay: false,
           autoplaySpeed: 4000,
       };
 

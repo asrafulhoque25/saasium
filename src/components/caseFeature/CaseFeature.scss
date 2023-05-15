@@ -1,0 +1,15 @@
+.caseFeatureWrapper {
+    .caseFeature-content {
+        .caseNumber {
+            background: linear-gradient(180deg, rgba(76, 64, 247, 0.3) 0%, rgba(255, 255, 255, 0.2) 82.5%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+            opacity: 0.7;
+            font-weight: 700;
+            font-size: 120px;
+            line-height: 120px;
+        }
+    }
+}

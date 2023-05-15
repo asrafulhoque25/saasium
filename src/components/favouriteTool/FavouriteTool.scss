@@ -1,0 +1,14 @@
+.favouriteTool{
+  .tool-slider-item{
+    width: auto !important;
+    padding: 0 60px;
+    .img-border{
+      height: 2px;
+     
+      background: linear-gradient(90deg, #c8cada02 0%, #666b9c 60%, #66687500 100%);
+    }
+  }
+.slick-slide {
+      margin: 0 0px;
+  }
+}

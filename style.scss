@@ -11,6 +11,8 @@
     --dark5: #dedede;
     --secondary: #0e1552;
     --primary: #603eff;
+    --light-black: #011a49;
+    --gray: #535c6d;
 }
 
 .ff-poppins {
@@ -89,8 +91,14 @@ h6 {
 .text-clr-gray {
     color: #b4b5bd;
 }
-.text-clr-dark5 {
+.text-clr-light-black {
+    color: var(--light-black);
+}
+.text-clr-dark {
     color: var(--dark5);
+}
+.text-clr-gray {
+    color: var(--gray);
 }
 
 // BG color
@@ -145,13 +153,13 @@ h6 {
 //box-shadow
 
 .box-shadow1 {
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 10px 30px rgba(27, 77, 173, 0.08);
 }
 
 //border-radius
 
-.radius-4 {
-    border-radius: 4px;
+.radius-16 {
+    border-radius: 16px;
 }
 
 /* helper , base classes  - END*/
@@ -180,6 +188,7 @@ h6 {
                     height: 3px;
                     width: 100%;
                     background: linear-gradient(90deg, #603eff 0%, rgba(96, 62, 255, 0) 100%);
+
                     border-radius: 30px;
                     bottom: -2px;
                     left: 0;
@@ -263,12 +272,27 @@ h6 {
 .customer-brand {
     padding: 110px 0;
 
-    .slick-slider .slick-track, .slick-slider .slick-list {
-    PADDING: 30PX 0;
-}
+    .slick-slider .slick-track,
+    .slick-slider .slick-list {
+        padding: 30px 0;
+    }
 }
 
 /* customer-brand   - END*/
+
+/* outcomeItem   - start*/
+
+.outcome-bg {
+    transition: .2s all linear;
+    &:hover {
+        box-shadow: 0px 10px 30px rgba(27, 77, 173, 0.08);
+    }
+    .outcomeItem {
+        background: #fff;
+    }
+}
+
+/* outcomeItem   - END*/
 
 /* Footer   - Start*/
 .footer-title {
@@ -305,14 +329,13 @@ h6 {
     .footer-social-link {
         height: 30px;
         width: 30px;
-        border: 1px solid #302F3E;
+        border: 1px solid #302f3e;
         border-radius: 30px;
         display: block;
 
-        &:hover{
+        &:hover {
             background-color: #603eff;
         }
-
     }
 }
 /* Footer   - END*/
