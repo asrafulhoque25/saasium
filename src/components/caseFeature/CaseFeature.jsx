@@ -15,13 +15,13 @@ const CaseFeature = () => {
                     console.log(featList);
 
                       return (
-                          <div className={`row align-items-center ${val.reverseClass && val.reverseClass}`} key={val.id}>
-                              <div className="col-xl-6">
+                          <div className={`row flex-lg-row flex-column-reverse align-items-center ${val.reverseClass && val.reverseClass}`} key={val.id}>
+                              <div className="col-lg-6">
                                   <div className="caseFeature-img">
                                       <img src={val.img} className="img-fluid" alt="caseimg" />
                                   </div>
                               </div>
-                              <div className="col-xl-6">
+                              <div className="col-lg-6">
                                   <div className="caseFeature-content">
                                       <h1 className="caseNumber">0{val.id}</h1>
                                       <h2 className="fs-36 fw-bold text-clr-secondary">{val?.title}</h2>

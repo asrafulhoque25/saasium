@@ -4,6 +4,8 @@ import App from './App.jsx'
 import './utils/fonts.css'
 import './index.css'
 import '../style.scss'
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(

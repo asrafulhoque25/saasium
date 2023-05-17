@@ -9,8 +9,8 @@ const Outcome = () => {
                           <div className="row mt-5 pt-3">
                   {OutcomeData?.data?.map((info, index) => {
                       return (
-                          <div className="col-xl-4" key={index}>
-                              <div className="outcome-bg ">
+                          <div className="col-xl-4 col-sm-6" key={index}>
+                              <div className="outcome-bg mb-4">
                                   <div className="outcomeItem text-center px-5 py-4 box-shadow1 radius-16 bg-white">
                                       <img src={info?.logo} className="img-fluid" alt="" />
                                       <h2 className="text-clr-light-black fs-4 fw-bold my-4">{info?.title}</h2>

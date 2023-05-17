@@ -1,14 +1,61 @@
-.favouriteTool{
-  .tool-slider-item{
-    width: auto !important;
-    padding: 0 60px;
-    .img-border{
-      height: 2px;
-     
-      background: linear-gradient(90deg, #c8cada02 0%, #666b9c 60%, #66687500 100%);
+.favouriteTool {
+  margin-bottom: 50px;
+    .tool-slider-item {
+        width: 90% !important;
+        padding: 10px 10px;
+        border: 1px solid transparent;
+        img {
+            padding: 0px 50px;
+
+            @media (max-width:991px) {
+                 padding: 0px 30px;
+            }
+        }
+        .img-border {
+            height: 2px;
+            background: linear-gradient(90deg, #c8cada02 0%, #666b9c 60%, #66687500 100%);
+        }
+
+        &:hover{
+            border: 1px solid #603EFF; 
+        }
     }
-  }
-.slick-slide {
-      margin: 0 0px;
-  }
+    .slick-slide {
+        margin: 0px 0px;
+    }
+
+    .slick-next {
+        &::before {
+            content: "";
+            position: absolute;
+            background-image: url(../../assets/images/Arrow-right1.svg);
+            width: 70px;
+            height: 20px;
+            background-repeat: no-repeat;
+        }
+    }
+    .slick-prev {
+        &::before {
+            content: "";
+            position: absolute;
+            background-image: url(../../assets/images/Arrow-left1.png);
+            width: 70px;
+            height: 20px;
+            background-repeat: no-repeat;
+            left: -80px;
+        }
+    }
+
+       .slick-dots {
+        bottom: -50px;
+        li {
+            button {
+                &::before {
+                    font-family: "slick";
+                    font-size: 11px;
+                   color: #603EFF;
+                }
+            }
+        }
+    }
 }

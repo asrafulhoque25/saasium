@@ -106,7 +106,7 @@ const Footer = () => {
                                                       <img src={menu.icon} className="img-fluid" alt="" />
                                                       <Link
                                                           to={menu.path}
-                                                          className={`fs-16 ff-poppins text-decoration-none fw-medium ${menu?.menuListColor ? menu?.menuListColor : "text-clr-gray"}`}
+                                                          className={`fs-16 ff-poppins text-decoration-none fw-normal ${menu?.menuListColor ? menu?.menuListColor : "text-clr-gray"}`}
                                                           key={index}
                                                       >
                                                           {menu.menuName}
@@ -137,9 +137,9 @@ const Footer = () => {
                       </div>
                   </div>
               </div>
-              <div className="border-top py-4 d-flex align-items-center justify-content-between">
+              <div className="border-tops py-4 d-flex align-items-center justify-content-between">
                   <div className="reserved-pra ">
-                      <p className="fs-6 text-clr-dark5">© 2023 . All Rights Reserved</p>
+                      <p className="fs-6 text-white">© 2023 . All Rights Reserved</p>
                   </div>
                   <div className="footer-social">
                       <ul className="d-flex align-items-center justify-content-center gap-3">
