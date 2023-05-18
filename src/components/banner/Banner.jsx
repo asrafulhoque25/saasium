@@ -7,7 +7,7 @@ const Banner = () => {
               <div className="banner-wrapper">
                   <div className="row align-items-center">
                       <div className="col-xl-6">
-                          <div className="banner-left">
+                          <div className="banner-left pb-5 pb-xl-0">
                               <p className="text-clr-secondary fs-18 fw-medium">Boost Your Business</p>
                               <h1 className="fs-60 fw-bold mb-3">The simple way organize your SaaS</h1>
                               <p className="fs-6 text-clr-dark3 mb-5">Add your companies value proposition here. Answer: Why should they care? What differentiates you from the.</p>

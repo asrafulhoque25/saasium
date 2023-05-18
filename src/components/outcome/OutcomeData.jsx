@@ -4,7 +4,7 @@ import outcomeLogo3 from "../../assets/images/outcome3.svg";
 
 const OutcomeData = {
     
-        sectionTitle: <>A memorable headline about your <br /> customer’s desired outcome.</>,
+        sectionTitle: <>A memorable headline about your <br className="d-none d-xl-inline" /> customer’s desired outcome.</>,
         data: [
             {
                 logo: outcomeLogo1,

@@ -87,12 +87,12 @@ const Footer = () => {
   ];
 
   return (
-      <footer className="bg-clr-dark1">
+      <footer className="bg-clr-dark1 pt-4">
           <div className="container">
-              <div className="row section-padding ">
+              <div className="row pt-5 ">
                   {footerMenuContent?.map((footerMenu, index) => {
                       return (
-                          <div className="col-xl-3 col-md-4 col-6" key={index}>
+                          <div className="col-xl-3 col-md-4 col-sm-6 col-12 pb-5" key={index}>
                               <Link to="/" className="d-block ">
                                   {footerMenu?.logo && <img src={footerMenu?.logo} alt="logo" />}
                               </Link>
@@ -137,7 +137,7 @@ const Footer = () => {
                       </div>
                   </div>
               </div>
-              <div className="border-tops py-4 d-flex align-items-center justify-content-between">
+              <div className="border-tops py-4 d-flex flex-sm-nowrap flex-wrap mt-sm-0 mt-5 justify-content-center align-items-center justify-content-sm-between">
                   <div className="reserved-pra ">
                       <p className="fs-6 text-white">© 2023 . All Rights Reserved</p>
                   </div>

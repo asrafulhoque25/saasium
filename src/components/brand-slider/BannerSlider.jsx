@@ -104,7 +104,6 @@ const BannerSlider = () => {
                   </div>
           </div>
       </div>
-      
   );
 }
  

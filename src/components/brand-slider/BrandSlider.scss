@@ -27,6 +27,10 @@
 .customer-brand{
      .slick-list {
   margin: 0 -15px; /* Adjust the spacing as per your requirements */
+
+  @media (max-width:580px) {
+    margin: 0 0px;
+  }
 }
 
 .slick-slide {
